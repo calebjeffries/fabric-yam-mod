@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yammod:yam_block"
+    }
+  ],
+  "result": {
+    "id": "yammod:yam",
+    "count": 9
+  }
+}

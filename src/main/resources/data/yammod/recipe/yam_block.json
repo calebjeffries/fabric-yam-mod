@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "YYY",
+    "YYY",
+    "YYY"
+  ],
+  "key": {
+    "Y": {
+      "item": "yammod:yam"
+    }
+  },
+  "result": {
+    "id": "yammod:yam_block"
+  }
+}

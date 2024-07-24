@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "Y",
+    "Y",
+    "/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "yammod:yam"
+    }
+  },
+  "result": {
+    "id": "yammod:yam_sword"
+  }
+}

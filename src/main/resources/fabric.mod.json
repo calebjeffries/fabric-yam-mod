@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "yammod",
+	"version": "${version}",
+	"name": "Yam Mod",
+	"description": "Incorporating everyone's favourite vegetable into Minecraft!",
+	"authors": [
+		"CaleBob2000"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "GNU GPL v3.0",
+	"icon": "assets/yammod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"yammod.Yammod"
+		],
+		"client": [
+			"yammod.YammodClient"
+		]
+	},
+	"mixins": [
+		"yammod.mixins.json",
+		{
+			"config": "yammod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

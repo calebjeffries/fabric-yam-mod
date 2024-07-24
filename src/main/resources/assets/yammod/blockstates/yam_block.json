@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "yammod:block/yam_block" }
+  }
+}
